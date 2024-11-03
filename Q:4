@@ -1,0 +1,1 @@
+AFTER TABLE "students" ADD COLUMN "F_name" VCHAR(50);
