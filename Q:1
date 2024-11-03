@@ -1,0 +1,8 @@
+CREATE TABLE "students" (
+    "id" INTEGER PRIMARY KEY,
+    "roll_no" VCHAR(10) NOT NULL UNIQUE,
+    "name" VCHAR(20) NOT NULL UNIQUE,
+    "address" VCHAR(50),
+    "age" INTEGER,
+    "department" VCHAR(30)
+);
