@@ -8,3 +8,16 @@ b)
 DELETE FROM STUDENT
 WHERE Roll_No = ‘11EE01’;
 ANS : This will delete the record of the student with roll_no '11EE01' from the table.
+
+c)
+UPDATE STUDENT
+SET ADDRESS = ‘Nawabshah', Department = ‘ME’;
+ANS : This will update the address and depatment of all students to 'Nawabshah' and 'ME' respectively, as there is WHERE clause to filter specific rows.
+
+d) 
+DROP TABLE STUDENT;
+ANS : This will permanently delete the 'student' table and its data from the database.
+
+e) 
+DROP DATABASE UNIVERSITY
+ANS : This command is invalid in SQLite because it does not support dropping an entire database with SQL commands. Database deletion must be done manually by removing the '.db' file.
