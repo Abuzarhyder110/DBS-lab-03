@@ -1,0 +1,10 @@
+a)
+UPDATE STUDENT
+SET Address = 'Larkana'
+WHERE Roll_No =’11IT02’;
+ANS : This will update the address of the students with roll_no = '11IT02' to 'Larkana'.
+
+b)
+DELETE FROM STUDENT
+WHERE Roll_No = ‘11EE01’;
+ANS : This will delete the record of the student with roll_no '11EE01' from the table.
